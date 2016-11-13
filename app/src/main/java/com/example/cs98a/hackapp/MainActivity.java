@@ -276,6 +276,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button night = (Button) findViewById(R.id.goodNight);
+
+        night.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v) {
+                User.me.updateLocation(Location.ELSEWHERE);
+            }
+        });
+
         User.initializeDB();
     }
 }

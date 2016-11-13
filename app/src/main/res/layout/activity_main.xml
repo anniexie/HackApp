@@ -9,9 +9,13 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.cs98a.hackapp.MainActivity">
+
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
         <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/tableLayout1"
             android:layout_width="350dp"
@@ -271,6 +275,12 @@
                     android:text="Here"
                     android:id="@+id/here11"/>
             </TableRow>
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Good Night! (Log out)"
+                android:gravity="center"
+                android:id="@+id/goodNight"/>
         </TableLayout>
     </ScrollView>
 </RelativeLayout>
