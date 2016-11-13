@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "157565665468",
+    "firebase_url": "https://hackapp-6b1cf.firebaseio.com",
+    "project_id": "hackapp-6b1cf",
+    "storage_bucket": "hackapp-6b1cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157565665468:android:3cfe9756a445c2c2",
+        "android_client_info": {
+          "package_name": "com.example.cs98a.hackapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157565665468-3t0p6fi42dvnm6i578r2ednkhds920eu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cs98a.hackapp",
+            "certificate_hash": "92EBB46F4F7B34E9AA81247D7083523AB8CA6CE9"
+          }
+        },
+        {
+          "client_id": "157565665468-h53cot1um4j9o1pf2qb9nrkcihd7lnrl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzn6CKtuvh5jGTgLa6QdNPaiR8UBpdPkw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "157565665468-h53cot1um4j9o1pf2qb9nrkcihd7lnrl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

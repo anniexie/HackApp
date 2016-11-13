@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.cs98a.hackapp.MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/tableLayout1"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:divider="#fff000"
+            android:stretchColumns="*" >
+
+        <TableRow android:id="@+id/tableRow1" >
+
+            <Button
+                android:layout_column="0"
+                android:layout_margin="20dp"
+                android:maxHeight="128dp"
+                android:maxWidth="128dp"
+                android:minHeight="64dp"
+                android:minWidth="64dp"
+                android:text="Cannon"
+                android:id="@+id/can" />
+
+            <Button
+                android:layout_column="1"
+                android:layout_margin="20dp"
+                android:maxHeight="128dp"
+                android:maxWidth="128dp"
+                android:minHeight="64dp"
+                android:minWidth="64dp"
+                android:text="Here"
+                android:id="@+id/here1"/>
+        </TableRow>
+
+        <TableRow android:id="@+id/tableRow2" >
+
+            <Button
+                android:layout_column="0"
+                android:layout_margin="20dp"
+                android:maxHeight="128dp"
+                android:maxWidth="128dp"
+                android:minHeight="64dp"
+                android:minWidth="64dp"
+                android:text="Cap And Gown"
+                android:id="@+id/cap" />
+
+            <Button
+                android:layout_column="1"
+                android:layout_margin="20dp"
+                android:maxHeight="128dp"
+                android:maxWidth="128dp"
+                android:minHeight="64dp"
+                android:minWidth="64dp"
+                android:text="Here"
+                android:id="@+id/here2"/>
+        </TableRow>
+
+        <TableRow android:id="@+id/tableRow3" >
+
+            <Button
+                android:layout_column="0"
+                android:layout_margin="20dp"
+                android:maxHeight="128dp"
+                android:maxWidth="128dp"
+                android:minHeight="64dp"
+                android:minWidth="64dp"
+                android:text="Charter"
+                android:id="@+id/chart"/>
+
+            <Button
+                android:layout_column="1"
+                android:layout_margin="20dp"
+                android:maxHeight="128dp"
+                android:maxWidth="128dp"
+                android:minHeight="64dp"
+                android:minWidth="64dp"
+                android:text="Here"
+                android:id="@+id/here3"/>
+        </TableRow>
+
+        <TableRow android:id="@+id/tableRow4" >
+
+            <Button
+                android:layout_column="0"
+                android:layout_margin="20dp"
+                android:maxHeight="128dp"
+                android:maxWidth="128dp"
+                android:minHeight="64dp"
+                android:minWidth="64dp"
+                android:text="Cloister"
+                android:id="@+id/cloi"/>
+
+            <Button
+                android:layout_column="1"
+                android:layout_margin="20dp"
+                android:maxHeight="128dp"
+                android:maxWidth="128dp"
+                android:minHeight="64dp"
+                android:minWidth="64dp"
+                android:text="Here"
+                android:id="@+id/here4"/>
+        </TableRow>
+
+            <TableRow android:id="@+id/tableRow5" >
+
+                <Button
+                    android:layout_column="0"
+                    android:layout_margin="20dp"
+                    android:maxHeight="128dp"
+                    android:maxWidth="128dp"
+                    android:minHeight="64dp"
+                    android:minWidth="64dp"
+                    android:text="Colonial"
+                    android:id="@+id/col"/>
+
+                <Button
+                    android:layout_column="1"
+                    android:layout_margin="20dp"
+                    android:maxHeight="128dp"
+                    android:maxWidth="128dp"
+                    android:minHeight="64dp"
+                    android:minWidth="64dp"
+                    android:text="Here"
+                    android:id="@+id/here5"/>
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow6" >
+
+                <Button
+                    android:layout_column="0"
+                    android:layout_margin="20dp"
+                    android:maxHeight="128dp"
+                    android:maxWidth="128dp"
+                    android:minHeight="64dp"
+                    android:minWidth="64dp"
+                    android:text="Cottage"
+                    android:id="@+id/cot"/>
+
+                <Button
+                    android:layout_column="1"
+                    android:layout_margin="20dp"
+                    android:maxHeight="128dp"
+                    android:maxWidth="128dp"
+                    android:minHeight="64dp"
+                    android:minWidth="64dp"
+                    android:text="Here"
+                    android:id="@+id/here6"/>
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow7" >
+
+                <Button
+                    android:layout_column="0"
+                    android:layout_margin="20dp"
+                    android:maxHeight="128dp"
+                    android:maxWidth="128dp"
+                    android:minHeight="64dp"
+                    android:minWidth="64dp"
+                    android:text="Ivy"
+                    android:id="@+id/ivy"/>
+
+                <Button
+                    android:layout_column="1"
+                    android:layout_margin="20dp"
+                    android:maxHeight="128dp"
+                    android:maxWidth="128dp"
+                    android:minHeight="64dp"
+                    android:minWidth="64dp"
+                    android:text="Here"
+                    android:id="@+id/here7"/>
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow8" >
+
+                <Button
+                    android:layout_column="0"
+                    android:layout_margin="20dp"
+                    android:maxHeight="128dp"
+                    android:maxWidth="128dp"
+                    android:minHeight="64dp"
+                    android:minWidth="64dp"
+                    android:text="Quad"
+                    android:id="@+id/quad"/>
+
+                <Button
+                    android:layout_column="1"
+                    android:layout_margin="20dp"
+                    android:maxHeight="128dp"
+                    android:maxWidth="128dp"
+                    android:minHeight="64dp"
+                    android:minWidth="64dp"
+                    android:text="Here"
+                    android:id="@+id/here8"/>
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow9" >
+
+                <Button
+                    android:layout_column="0"
+                    android:layout_margin="20dp"
+                    android:maxHeight="128dp"
+                    android:maxWidth="128dp"
+                    android:minHeight="64dp"
+                    android:minWidth="64dp"
+                    android:text="Terrace"
+                    android:id="@+id/ter"/>
+
+                <Button
+                    android:layout_column="1"
+                    android:layout_margin="20dp"
+                    android:maxHeight="128dp"
+                    android:maxWidth="128dp"
+                    android:minHeight="64dp"
+                    android:minWidth="64dp"
+                    android:text="Here"
+                    android:id="@+id/here9"/>
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow10" >
+
+                <Button
+                    android:layout_column="0"
+                    android:layout_margin="20dp"
+                    android:maxHeight="128dp"
+                    android:maxWidth="128dp"
+                    android:minHeight="64dp"
+                    android:minWidth="64dp"
+                    android:text="Tiger"
+                    android:id="@+id/tig"/>
+
+                <Button
+                    android:layout_column="1"
+                    android:layout_margin="20dp"
+                    android:maxHeight="128dp"
+                    android:maxWidth="128dp"
+                    android:minHeight="64dp"
+                    android:minWidth="64dp"
+                    android:text="Here"
+                    android:id="@+id/here10"/>
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow11" >
+
+                <Button
+                    android:layout_column="0"
+                    android:layout_margin="20dp"
+                    android:maxHeight="128dp"
+                    android:maxWidth="128dp"
+                    android:minHeight="64dp"
+                    android:minWidth="64dp"
+                    android:text="Tower"
+                    android:id="@+id/tow"/>
+
+                <Button
+                    android:layout_column="1"
+                    android:layout_margin="20dp"
+                    android:maxHeight="128dp"
+                    android:maxWidth="128dp"
+                    android:minHeight="64dp"
+                    android:minWidth="64dp"
+                    android:text="Here"
+                    android:id="@+id/here11"/>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</RelativeLayout>
