@@ -1,8 +1,6 @@
 package com.example.cs98a.hackapp;
 
 
-import android.util.Log;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.TreeMap;
@@ -56,11 +54,9 @@ public class Location {
     }
 
     public void remove(User u) {
-        Log.w("DEBUG", String.format("%s removed from %s", u.getName(), where));
         if (where.equals("Elsewhere"))
             return;
         visitors.remove(u.UID());
-        Log.w("DEBUG", visitors.containsValue(u.getName()) ? "Removal failed" : "Removal Success");
     }
 
     public static int indexOf(String location) {

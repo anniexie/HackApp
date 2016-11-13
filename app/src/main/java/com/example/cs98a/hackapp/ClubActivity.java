@@ -3,7 +3,6 @@ package com.example.cs98a.hackapp;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.TextView;
 
 import java.util.ArrayList;

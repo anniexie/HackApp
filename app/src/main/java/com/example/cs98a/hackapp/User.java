@@ -49,10 +49,6 @@ public class User implements Comparable<User> {
     }
 
     private static void insertUser(String name, String location) {
-        Log.w("DEBUG", "BEGIN");
-        Log.w("DEBUG", name);
-        Log.w("DEBUG", location);
-        Log.w("DEBUG", "END");
         users.put(name, location);
     }
 
@@ -106,7 +102,6 @@ public class User implements Comparable<User> {
 
             @Override
             public void onChildChanged(DataSnapshot dataSnapshot, String s) {
-                Log.w("DEBUG", "This was executed");
                 User user = dataSnapshot.getValue(User.class);
                 String previous = users.get(user.getName());
                 Location.CLUBS[Location.indexOf(previous)].remove(user);
@@ -133,15 +128,6 @@ public class User implements Comparable<User> {
             }
         });
         initialized = true;
-    }
-
-    private static void debug() {
-        Log.w("DEBUG", "BEGIN");
-        for (String s : users.keySet()) {
-            Log.w("DEBUG", s);
-        }
-        Log.w("DEBUG", "END");
-
     }
 
 }
